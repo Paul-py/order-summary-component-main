@@ -2,7 +2,7 @@
 
 html{
     font-family: "Red Hat Text", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -35,10 +35,13 @@ main{
 }
 
 .content{
+    width: 100%;
+    /* border: 2px solid blue; */
     padding: 20px;
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    gap: 20px;
 }
 
 #image{  
@@ -56,8 +59,9 @@ h2{
     border-radius: 10px;
     color: white;
     text-align: center;
-    margin: 20px;
+    margin-top: 20px; 
     padding: 15px;
+    width: 100%;
 
 }
 
@@ -66,4 +70,25 @@ h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.annualplan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid blue;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+p{
+    color: gray;
+    font-weight: 400;
+}
+
+.child-annual-plan{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
